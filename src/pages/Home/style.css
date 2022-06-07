@@ -85,6 +85,7 @@ height: 100%;
        max-width: 300px;
       font-size: 0.7rem;
       font-family: 'Comfortaa';
+      background-color: red;
    }
    #text-header-top{
        font-size: 1.4rem;
