@@ -7,7 +7,7 @@ color: white;
 background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 30%);
 background-repeat: no-repeat;
 background-attachment:scroll;
-background-size:auto;
+background-size:contain;
 height: 100vh;
 }
 
