@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Desconto.css';
 import Selo from '../../assets/selo.png';
 
 export default function Desconto(){
+
+    const {navigate} = useNavigate();
     function openInNewTab(url) {
         window.open(url, '_blank').focus();
        }
@@ -17,7 +20,9 @@ export default function Desconto(){
         },
         
     ];
-    
+    useEffect(()=>{
+    navigate("/desconto");
+    },[]);
     return (
         <>
        <div className='header-text-line'>
