@@ -20,13 +20,14 @@ background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 30%);
     .content-page-home{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         min-width: 300px;
         height: 600px;
     }
     .logo-brand{
         max-width: 300px;
+        margin-top: auto;
     }
 
     .button-pre-sell{
