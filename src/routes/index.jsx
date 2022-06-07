@@ -9,6 +9,7 @@ export default function Rota(){
 
         <BrowserRouter>
         <Routes>
+        <Route path='*' element={<Home/>}/>
             <Route path='/' element={<Home/>}/>
             <Route path='/video' element={<Video/>}/>
             <Route path='/desconto' element={<Desconto/>}/>
