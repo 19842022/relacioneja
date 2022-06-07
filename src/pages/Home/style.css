@@ -15,6 +15,8 @@ background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 30%);
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        min-width: 300px;
+        height: 600px;
         
     }
     .content-page-home{
