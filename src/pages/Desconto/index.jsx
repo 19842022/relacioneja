@@ -26,7 +26,8 @@ export default function Desconto(){
     return (
         <>
        <div className='header-text-line'>
-           Parabéns por ter chegado até aqui!<br></br>
+           <b>Parabéns por ter chegado até aqui!</b>
+           <br></br>
            Você irá ter ótimos resultados e conquistar o seu objetivo de uma maneira mais rápida!
        </div>
     <div className='content-desc-home'>
