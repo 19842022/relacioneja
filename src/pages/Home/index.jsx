@@ -50,7 +50,7 @@ export default function Home(){
                          </label>
                          <label className='input' htmlFor="">
                          <input type="radio" name='quiz' value={5} />
-                         Todas as opções abaixo</label>
+                         Todas as opções acima</label>
                     </form>
                </div>
                <div className='button-pre-sell'>
