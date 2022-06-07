@@ -62,7 +62,7 @@ height: 100%;
         
     }
    .text-header{
-       padding:15px;
+       padding:0px;
     display: flex;
     flex-direction: row;
     justify-content: center;
