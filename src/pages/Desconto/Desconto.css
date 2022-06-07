@@ -8,7 +8,9 @@ background-attachment:scroll;
 background-size:cover;
 height: 100vh;
 }
-
+.color-desc{
+    color: red;
+}
 
 @media screen and (max-width:414px){
 .header-text-line{
