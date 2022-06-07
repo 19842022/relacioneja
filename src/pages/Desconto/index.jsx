@@ -21,7 +21,7 @@ export default function Desconto(){
         
     ];
     useEffect(()=>{
-    navigate("/desconto");
+   return navigate("/desconto");
     },[]);
     return (
         <>
