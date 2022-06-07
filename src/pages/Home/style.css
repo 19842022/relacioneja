@@ -17,7 +17,7 @@ background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 30%);
     
 }
 
-@media screen and (max-width:415px){ 
+@media screen and (max-width:414px){ 
 
     .content-page-home{
         display: flex;
@@ -25,7 +25,7 @@ background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 30%);
         justify-content: center;
         align-items: center;
         min-width: 300px;
-        max-height: 100%;
+        height: 100%;
     }
     .logo-brand{
         max-width: 300px;
