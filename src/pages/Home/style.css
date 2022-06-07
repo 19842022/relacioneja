@@ -137,6 +137,7 @@ height: 100vh;
         
     }
 .content-page-home{
+  margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
