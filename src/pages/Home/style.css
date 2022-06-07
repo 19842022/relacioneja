@@ -21,7 +21,7 @@ background-size:contain;
         align-items: center;
         flex:0;
         min-width: 300px;
-        height: 100vh;
+        height: 100%;
         
     }
     .content-page-home{
