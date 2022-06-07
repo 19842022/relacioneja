@@ -15,8 +15,9 @@ background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 30%);
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        flex:1;
       
-        background-color: purple;
+        
     }
     .content-page-home{
         display: flex;
@@ -43,8 +44,8 @@ background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 30%);
         
     }
     .button-pre-sell-est{
-      flex:1;
       min-width: 160px;
+      height: 40px;
         background-color: #0D0D0D;
         color: white;
         border-radius: 10px;
@@ -115,7 +116,10 @@ background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 30%);
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;       
+        align-items: center;
+        flex:1;
+      
+        
     }
 .content-page-home{
     display: flex;
