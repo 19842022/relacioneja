@@ -133,11 +133,12 @@ height: 100vh;
         justify-content: center;
         align-items: center;
         flex:1;
+        margin-top: 100px;
       
         
     }
 .content-page-home{
-  margin-top: 50px;
+  
     display: flex;
     flex-direction: column;
     justify-content: center;
