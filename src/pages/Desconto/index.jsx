@@ -5,7 +5,7 @@ import Selo from '../../assets/selo.png';
 
 export default function Desconto(){
 
-    const {navigate} = useNavigate();
+    const navigate = useNavigate();
     function openInNewTab(url) {
         window.open(url, '_blank').focus();
        }
