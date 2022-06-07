@@ -36,7 +36,6 @@
     }
     .comentarios{
         min-width: 370px;
-        height: 300px;
         flex:0;
         color:black;
         flex-direction: column;
