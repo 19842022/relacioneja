@@ -24,6 +24,7 @@ export default function Home(){
      },[UsersCount]);
      return (
           <div className='content-home'>
+               <div className='rodape'><b className='count-users'>{UsersCount}</b> usuários on-line neste momento!</div>
                <div className='content-page-home'>
                <img className='logo-brand' src={Logobrand}/>
                <div id='text-header-top' className='text-header'>Descubra os segredos para conquistar qualquer homem!</div>
@@ -57,7 +58,7 @@ export default function Home(){
                     <button onClick={() => navigate("/video")} className='button-pre-sell-est'>Clique aqui para saber mais</button>
                </div>
                </div>
-               <div className='rodape'><b className='count-users'>{UsersCount}</b> usuários on-line neste momento!</div>
+               
           </div>
 
      );
