@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat:wght@100&display=swap');
+
+body{
+    font-family: 'Montserrat';
+color: white;
+background: rgb(255,0,0);
+background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 30%);
+}
+.content-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+  
+    
+}
+
+@media screen and (max-width:415px){ 
+
+    .content-page-home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-width: 300px;
+        max-height: 100%;
+    }
+    .logo-brand{
+        max-width: 300px;
+    }
+
+    .button-pre-sell{
+        min-width: 200px;
+        height: 50px;
+        border-radius: 10px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10px;
+        padding-bottom: 50px;
+        
+    }
+    .button-pre-sell-est{
+      flex:1;
+      min-width: 160px;
+        background-color: #0D0D0D;
+        color: white;
+        border-radius: 10px;
+        border: solid;
+        border-width: 1px;
+        border-color: black;
+        box-shadow: black 0px 0px 10px;
+        
+      
+        
+    }
+   .text-header{
+       padding:15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+    font-size: 0.8rem;
+    max-width: 300px;
+    font-family: 'Blinker';
+    font-weight: bold;
+    color: white;
+   }
+   .quiz{
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content:space-between;
+       align-content: center;
+       margin-left: 20px;
+       max-width: 300px;
+      font-size: 0.7rem;
+      font-family: 'Comfortaa';
+   }
+   #text-header-top{
+       font-size: 1.4rem;
+       font-weight: bold;
+       color:white;
+       text-shadow: black 0 0 2px;
+   }
+   .input{
+       padding-bottom: 10px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+   .rodape{
+       position:absolute;
+     top: 0px;
+       height: 30px;
+       max-width: 300px;
+       color: white;
+       font-size: 0.7rem;
+   }
+   .count-users{
+       color: red;
+   }
+
+}
+
+
+
+/* Desktop */
+@media screen and (min-width:415px){ 
+
+.content-page-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 614px;
+    max-height: 100%;
+    padding-bottom: 26px;
+}
+.logo-brand{
+    max-width: 300px;
+}
+
+.button-pre-sell{
+    min-width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    padding-bottom: 50px;
+    
+}
+.button-pre-sell-est{
+  flex:1;
+  min-width: 160px;
+    background-color: #0D0D0D;
+    color: white;
+    border-radius: 10px;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    box-shadow: black 0px 0px 10px;
+    
+  
+    
+}
+.text-header{
+   padding:15px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
+align-content: center;
+text-align: center;
+font-size: 0.8rem;
+max-width: 300px;
+font-family: 'Blinker';
+font-weight: bold;
+color: white;
+}
+.quiz{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content:space-between;
+   align-content: center;
+   margin-left: 20px;
+   max-width: 300px;
+  font-size: 0.7rem;
+  font-family: 'Comfortaa';
+}
+#text-header-top{
+   font-size: 1.4rem;
+   font-weight: bold;
+   color:white;
+   text-shadow: black 0 0 2px;
+}
+.input{
+   padding-bottom: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.rodape{
+   position:absolute;
+ top: 0px;
+   height: 30px;
+   max-width: 300px;
+   color: white;
+   font-size: 0.7rem;
+}
+.count-users{
+   color: red;
+}
+
+}
