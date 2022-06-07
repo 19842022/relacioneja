@@ -94,7 +94,7 @@ background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 30%);
    }
    .rodape{
        position:absolute;
-     top: 235px;
+     top: 280px;
        height: 30px;
        max-width: 300px;
        color: white;
