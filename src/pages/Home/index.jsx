@@ -28,32 +28,8 @@ export default function Home(){
                <div className='content-page-home'>
                <img className='logo-brand' src={Logobrand}/>
                <div id='text-header-top' className='text-header'>Descubra os segredos para conquistar qualquer homem!</div>
-               <div id='text-header' className='text-header'>
-               Me fale o principal motivo que te fez tomar essa decisão:
-               </div>
-               <div className='quiz'>
-                    <form className='quiz'>
-                         <label className='input' htmlFor="">
-                         <input type="radio" name='quiz' value={1}/>
-                         Quero recuperar minha autoestima.
-                         </label>
-                         <label className='input' htmlFor="">
-                         <input type="radio" name='quiz' value={2} />
-                         Quero me sentir mais confiante. 
-                         </label>
-                         <label className='input' htmlFor="">
-                         <input type="radio" name='quiz' value={3} />
-                         Quero ser desejada e invejada por todo mundo.      
-                         </label>
-                         <label className='input' htmlFor="">
-                         <input type="radio" name='quiz' value={4} />
-                         Quero a atenção do meu marido/namorado ou ficante.      
-                         </label>
-                         <label className='input' htmlFor="">
-                         <input type="radio" name='quiz' value={5} />
-                         Todas as opções acima</label>
-                    </form>
-               </div>
+          
+
                <div className='button-pre-sell'>
                     <button onClick={() => navigate("/video")} className='button-pre-sell-est'>Clique aqui para saber mais</button>
                </div>
