@@ -86,13 +86,12 @@ height: 100vh;
         padding: 10px;
         text-align: center;
         box-shadow: black 0px 0px 10px;
+        -webkit-animation: bounce 1s infinite alternate;
+        -moz-animation: bounce 1s infinite alternate;
+        animation: bounce 1s infinite alternate;
         
     }  
-    .button-desc:hover{
-        -webkit-animation: bounce 1s infinite alternate;
-          -moz-animation: bounce 1s infinite alternate;
-          animation: bounce 1s infinite alternate;
-    } 
+    
 }
 
 /* Desktop */
