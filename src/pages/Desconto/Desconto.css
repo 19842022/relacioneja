@@ -11,7 +11,15 @@ height: 100vh;
 .color-desc{
     color: red;
 }
-
+@-webkit-keyframes bounce {
+    to { -webkit-transform: scale(1.2); }
+  }
+  @-moz-keyframes bounce {
+    to { -moz-transform: scale(1.2); }
+  }
+  @keyframes bounce {
+    to { transform: scale(1.2); }
+  }
 @media screen and (max-width:414px){
 .header-text-line{
     margin-top: 10px;
@@ -75,8 +83,16 @@ height: 100vh;
         background-color: green;
         color: white;
         border-radius: 5px;
-        height: 30px;
-    }
+        padding: 10px;
+        text-align: center;
+        box-shadow: black 0px 0px 10px;
+        
+    }  
+    .button-desc:hover{
+        -webkit-animation: bounce 1s infinite alternate;
+          -moz-animation: bounce 1s infinite alternate;
+          animation: bounce 1s infinite alternate;
+    } 
 }
 
 /* Desktop */
@@ -143,6 +159,14 @@ height: 100vh;
         background-color: green;
         color: white;
         border-radius: 5px;
-        height: 30px;
-    }   
+        padding: 10px;
+        text-align: center;
+        box-shadow: black 0px 0px 10px;
+        
+    }  
+    .button-desc:hover{
+        -webkit-animation: bounce 1s infinite alternate;
+          -moz-animation: bounce 1s infinite alternate;
+          animation: bounce 1s infinite alternate;
+    } 
 }
